@@ -1,32 +1,22 @@
 ---
-title: A brave new world
+title: Getting started
 layout: post
-description: I finally made the big switch to OSX. I'm still finding my feet, but already discovering there's things I love, and things that I don't…
+description: How to get started using this Jekyll template thingy on Github…
 comments: enabled
 ---
 
-I finally did it, with the arrival of my shiny new iMac, I've switched my primary development environment to OSX. I've just finished installing Jekyll, so this is my inaugral rant!
+First up, you need a Github account. You already have on eof those right? Great.
 
-Unsurprisingly, I ran into some issues almost straight away, due mostly to the fact that, under the hood, OSX is so very similar to *the best OS*, Linux. I immediately felt I was on familiar ground. It was because of this that I tripped on some small things, the silly stuff, which if I am honest made me feel like a total n00b.
+To get started you can just fork this repository to your account, then simply rename it so it starts with your github username, not mine (mines nternetinspired, your's is something else).
 
-##Baby steps
-It took me sometime to discover how to view .dotfiles for example, and I feel I have a long way to go yet with regards to keyboard shortcuts! My hind-brain is still causing my hands to hit keys on my keyboard that don't exist and parts of my keyboard that are now empty desk (why is the keyboard so small??).
+A few minutes later (up to 10 apparently) Github will be serving your site up at yourusername.github.com. Sorted.
 
-<p data-pullquote="Why is my user in a group called 'staff'?">Why is my user in a group called 'staff'? I'm tempted to chrgp it, but concerned I may well break everything. I'll wait till I have a good backup in place! The 'Dashboard'? What's it for? Yuh, widgets obviously, but a separate canvas for that?? It seems completely alien to me.</p>
+##How do I change stuff?
 
-I'm sure someone can very quickly give me a great answer, but why for example is it not possible to pin the terminal to the dock? I like the terminal, *when* it is the fastest way to do something…
+<p data-pullquote="If you are going to use Disqus comments on articles you need to have set up a Disqus account…">Easy stuff first. Site-wide configuration junk is stored in the configuration file, _config.yml. Edit that inserting your name, site name, email address, etc. If you are going to use Disqus comments on articles you need to have set up a Disqus account (obviously) and you can then place the username in this file to. At that point Disqus comment trickery will automagically appear in your posts.</p>
 
-##Here and now
-Then there are the other things, the things that have just blown me away. Some of the apps in particular have opened my eyes to OSX as a developers machine. The apps! My word, the apps!
+##I don't like blue
+Good. Don't make your site look the same as everyone else who forked this thing, that would be super lame. You now have 2 options;
 
-<p data-pullquote="…CodeKit and Tower, both of which will be changing my development process for ever!">After installing my stalwarts, Twitter, Dropbox, Thunderbird, Chrome and Sublime Text 2 I asked the good people of Twitter for the recommendations. Following many positive endorsements I then installed <a href="http://incident57.com/codekit/">CodeKit</a> and <a href="http://www.git-tower.com/">Tower</a>, both of which will be changing my development process for ever!</p>
-
-Tower really does make using git enjoyable, and that is something I never thought I would hear myself (or anyone else) say. It beats using the command line every time, because it's faster, more intuitive and incredibly user-friendly. I'm in love.
-
-CodeKit? The little beauty, it just sits back and does it's thing and does it so incredibly well it's almost magical. If I'd know how good it was I would have switched to a Mac sooner, it's that good.
-
-##What next?
-What else am I missing? I want lean, mean developer tools primarily and I prefer those that follow *the Unix way*, small apps that do one job, and one job only, but do it incredibly well.
-
-So, if you have any suggestions, please let me know. Thanks.
-
+1. Edit style.LESS - the variable for all the colour junk is right at the top, just change that and re-compile that file. 
+2. Edit style.css - If less scares you use serach/replace to swap out the colour in the css instead. And then think about using LESS next time.
