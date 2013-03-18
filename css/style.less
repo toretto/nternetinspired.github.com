@@ -186,7 +186,7 @@ abbr {
    Layout
    ========================================================================== */
 section {
-    margin: @baseline auto;
+    margin: 2*@baseline auto;
 }
 
 [role="banner"] > section,
@@ -199,6 +199,12 @@ section {
 [role="banner"] {
     border-top: 5px solid @basecolor;
     text-align: center;
+
+    > section {
+        margin-bottom: 0;}
+
+    h1 {
+        margin: 0;}
 }
 
 nav ul {
