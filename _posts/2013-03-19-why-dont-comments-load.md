@@ -1,0 +1,11 @@
+---
+title: Posting things
+layout: post
+description: Why aren't the comments loading on this page?
+---
+
+I haven't trundled over to Disqus and set up an account for this domain yet, but I will in the morning.
+
+If you have set up a Disqus account poinyed it to your domain (where you forked this repo to) and you don't have comments loading, you should check the username you entered in _config.yml
+
+I disabled comments on this article to prove the point. Easy eh?
