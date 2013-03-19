@@ -5,7 +5,7 @@ description: How to get started using this Jekyll template thingy on Github…
 comments: enabled
 ---
 
-First up, you need a Github account. You already have on eof those right? Great.
+First up, you need a Github account. You already have one of those right? Great.
 
 To get started you can just fork this repository to your account, then simply rename it so it starts with your github username, not mine (mines nternetinspired, your's is something else).
 

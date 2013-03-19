@@ -683,6 +683,9 @@ article footer,
 .article-nav .next {
   text-align: right;
 }
+.article-intro h1 {
+  font-size: 1.5em;
+}
 .article-comments {
   background: #dde9f4;
   padding: 1.5em;
