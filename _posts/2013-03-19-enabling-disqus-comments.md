@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Enabling Disqus comments
 description: How can I add commenting? Why aren't the comments loading on this page? What's going on bro?
 comments: enabled
 ---
