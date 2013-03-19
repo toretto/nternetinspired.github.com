@@ -2,7 +2,6 @@
 title: Changing the homepage
 layout: post
 description: How do I change all that crap you have on the homepage?
-comments: enabled
 ---
 
 index.html. Edit that. Job done.

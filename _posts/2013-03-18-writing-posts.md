@@ -2,7 +2,6 @@
 title: Posting things
 layout: post
 description: How do I post stuff using Jekyll and Github
-comments: enabled
 ---
 
 Again, super-simple. Just create a new file, in markdown format with the date and title in the filename. Drop it in the _posts folder and Jekyll and Github take care of everything else.

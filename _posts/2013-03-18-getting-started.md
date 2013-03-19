@@ -2,7 +2,6 @@
 title: Getting started
 layout: post
 description: How to get started using this Jekyll template thingy on Github…
-comments: enabled
 ---
 
 First up, you need a Github account. You already have one of those right? Great.
