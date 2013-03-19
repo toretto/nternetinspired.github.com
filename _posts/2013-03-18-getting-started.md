@@ -12,4 +12,6 @@ A few minutes later (up to 10 apparently) Github will be serving your site up at
 
 ##How do I change stuff?
 
-<p data-pullquote="If you are going to use Disqus comments on articles you need to have set up a Disqus account…">Easy stuff first. Site-wide configuration junk is stored in the configuration file, _config.yml. Edit that inserting your name, site name, email address, etc. If you are going to use Disqus comments on articles you need to have set up a Disqus account (obviously) and you can then place the username in this file to. At that point Disqus comment trickery will automagically appear in your posts.</p>
+<p data-pullquote="…to use Disqus comments you need to have set up a Disqus account…">Easy stuff first. Site-wide configuration junk is stored in the configuration file, _config.yml. Edit that inserting your name, site name, email address, etc.</p>
+
+If you are going to use Disqus comments you need to have set up a Disqus account (obviously) and you can then place the username in this file to. At that point Disqus comment trickery will automagically appear in your posts.
