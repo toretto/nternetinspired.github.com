@@ -14,4 +14,4 @@ A few minutes later (up to 10 apparently) Github will be serving your site up at
 
 <p data-pullquote="…to use Disqus comments you need to have set up a Disqus account…">Easy stuff first. Site-wide configuration junk is stored in the configuration file, _config.yml. Edit that inserting your name, site name, email address, etc.</p>
 
-If you are going to use Disqus comments you need to have set up a Disqus account (obviously) and you can then place the username in this file to. At that point Disqus comment trickery will automagically appear in your posts.
+If you are going to use Disqus comments you need to have set up a Disqus account (obviously) and you can then place the username in this file to. At that point Disqus comment trickery will automagically appear in your posts. If a comments box appears, but commenting does not load you should check you have everything set up correctly at Disqus.
