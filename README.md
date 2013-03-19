@@ -16,4 +16,6 @@ You don't need to install anything, but for lack of a better word let's call it 
     <li>Wait a couple of minutes, then visit your-github-username.github.com in your browser. Presto.
 </ol>
 
-Then to post stuff, you just write a post in Markdown, oush it to the _posts folder in your repo. That's it. Really.
+Then to post stuff, you just write a post in Markdown, push it to the _posts folder in your repo. That's it. Really.
+
+There's some additional info in the form of posts (That way you can learn the format too!). So, either just mosey over to the _posts folder of this repository, or visit the website: http://nternetinspired.github.com/
