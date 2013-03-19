@@ -185,33 +185,33 @@ abbr {
 /* ==========================================================================
    Layout
    ========================================================================== */
-section {
-    margin: 2*@baseline auto;
+
+/* give all the sections some breathing space */
+section section {
+    padding: @baseline 0;
 }
 
-[role="banner"] > section,
-[role="main"] > section,
-[role="contentinfo"] > section {
-    .container;
-}
-
-/* header */
+/* HEADER */
 [role="banner"] {
     border-top: 5px solid @basecolor;
     text-align: center;
 
     > section {
-        margin-bottom: 0;}
+        .container;
+        padding: @baseline;}
 
     h1 {
         margin: 0;}
 }
 
+/* NAVIGATION */
+/* general nav */
 nav ul {
     padding: 0;
     margin-bottom: 0;
 }
 
+/* main nav */
 [role="navigation"] li {
     display: inline-block;
 
@@ -220,7 +220,14 @@ nav ul {
     }
 }
 
-/* banner image */
+/* MAIN CONTENT */
+/* the main content area */
+[role="main"] > section {
+    .container;
+    padding: 0 @baseline @baseline;
+}
+
+/* article banner image */
 figure {
     position: relative;
     margin-bottom: @baseline;
@@ -235,6 +242,7 @@ figure {
         margin-top: .5em;}
 }
 
+/* article footer items */
 article footer,
 .readmore {
     font-style: italic;
@@ -253,22 +261,25 @@ article footer,
         text-align: right;}
 }
 
+/* reduce size of h1 on article lists */
 .article-intro h1 {
     font-size: 1.5em;
 }
 
+/* box the comments */
 .article-comments {
     background: lighten(@basecolor, 40%);
     padding: @baseline;
 }
 
-/* footer */
+/* SITE FOOTER */
 [role="contentinfo"] {
     background: @basecolor;
 
     section {
-        margin-bottom: 0;
-    }
+        .container;
+        padding: @baseline;
+        margin-bottom: 0;}
 
     a {
     color: #fff;}
@@ -278,11 +289,6 @@ article footer,
         margin: 1em 0;
     }
 }
-
-/* ==========================================================================
-   Helpers
-   ========================================================================== */
-
 
 /* ==========================================================================
    Media Queries
@@ -297,6 +303,7 @@ article footer,
     [role="banner"] {
         text-align: left;
     }
+
     .logo,
     [role="navigation"] {
         display: inline-block;
@@ -304,16 +311,23 @@ article footer,
         vertical-align: middle;
         margin-right: -.25em;
     }
+
     [role="navigation"] ul {
         margin: 0;
         text-align: right;
     }
+
     [role="navigation"] li a {
         padding: .5em 0 .5em 2em;
     }
 }
 
 @media only screen and (min-width: 45em) {
+
+    [role="banner"] > section,
+    [role="contentinfo"] > section {
+        padding: 2*@baseline @baseline;
+    }
 
     article header {
         display: inline-block;
@@ -327,6 +341,7 @@ article footer,
         text-align: right;
     }
 }
+
 @media only screen and (min-width: 90em) {
 
     body {
@@ -334,10 +349,16 @@ article footer,
     }
 
 }
+
 @media only screen and (min-width: 118em) {
 
     body {
         font-size: 112%;
+    }
+
+    [role="banner"] > section,
+    [role="contentinfo"] > section {
+        padding: 4*@baseline @baseline;
     }
 
 }
