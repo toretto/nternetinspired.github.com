@@ -1,7 +1,6 @@
-----
+---
+layout: post
 title: Test Driving Jekyll
-Description: Test Driving Jekyll
-layout: post  
 ---
 Originally, I had written a long (?) post about how I started using Jekyll today. But Safari decided to freak out and sign me out of Github, so that post is a goner. Here's the short version instead.
 
