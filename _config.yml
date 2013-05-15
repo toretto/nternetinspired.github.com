@@ -12,14 +12,14 @@ auto: true
 permalink: /:title
 
 # PERSONALISE ME!
-sitename: Jekyll Me
+sitename: An experiment in minimalism
 # Replace these details with your own (You can remove everything name: if you don't use them)
 author :
- name: yourname
- email: yourname@yourdomain.com
- github: your-username
- twitter: your-username
- disqus: your-username
+ name: Steven Zeegers
+ email: steven@toralkolabs.net
+ github: toretto
+ twitter: torettox84
+ disqus: torettox84
 
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.com, replace with your username.
